@@ -101,7 +101,13 @@ layout: mainpage
       <th scope="row">8/31</th>
       <td>Lecture</td>
       <td>L0</td>
-      <td>Course Introduction</td>
+      <td>Course Introduction (<a href="{{ '/assets/slides/lec0.pdf' | prepend: site.baseurl | prepend: site.url }}">PDF</a> and <a href="{{ '/assets/slides/lec0.key' | prepend: site.baseurl | prepend: site.url }}">.key</a>)</td>
+    </tr>
+    <tr class="table-success">
+      <th scope="row">9/1</th>
+      <td>Lecture</td>
+      <td>L1</td>
+      <td>Case splitting and lists intro (<a href="https://www.youtube.com/watch?v=WVmomIoxBZM&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=6">L4 of 352</a>) and recursion over lists (<a href="https://www.youtube.com/watch?v=0y325A82vMc&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=7">L5 of 352</a>)</td>
     </tr>
     <!-- <tr class="table-danger"> -->
     <!--   <th scope="row">TBA</th> -->
