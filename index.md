@@ -100,15 +100,88 @@ layout: mainpage
     <tr class="table-success">
       <th scope="row">8/31</th>
       <td>Lecture</td>
-      <td>L0</td>
+      <td>L1</td>
       <td>Course Introduction (<a href="{{ '/assets/slides/lec0.pdf' | prepend: site.baseurl | prepend: site.url }}">PDF</a> and <a href="{{ '/assets/slides/lec0.key' | prepend: site.baseurl | prepend: site.url }}">.key</a>)</td>
     </tr>
     <tr class="table-success">
       <th scope="row">9/1</th>
       <td>Lecture</td>
-      <td>L1</td>
+      <td>L2</td>
       <td>Case splitting and lists intro (<a href="https://www.youtube.com/watch?v=WVmomIoxBZM&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=6">L4 of 352</a>) and recursion over lists (<a href="https://www.youtube.com/watch?v=0y325A82vMc&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=7">L5 of 352</a>)</td>
     </tr>
+    <tr class="table-success">
+      <th scope="row">9/7</th>
+      <td>Lecture</td>
+      <td>L3</td>
+      <td>Racket boot-up</td>
+    </tr>
+    <tr class="table-success">
+      <th scope="row">9/9</th>
+      <td>Lecture</td>
+      <td>L4</td>
+      <td>IfArith Intro, Racket-based interpreter (<a href="{{ '/assets/slides/ifarith-intro.pdf' | prepend: site.baseurl | prepend: site.url }}">PDF</a> and <a href="{{ '/assets/slides/ifarith-intro.key' | prepend: site.baseurl | prepend: site.url }}">.key</a>)</td>
+    </tr>
+    <tr class="table-info">
+      <th scope="row">9/9</th>
+      <td>Lecture</td>
+      <td>L4</td>
+      <td><a href="https://gist.github.com/kmicinski/83dc13db32f1aecf6207c4cb10de8d73">Livecoding from L4</a></td>
+    </tr>
+    <tr class="table-success">
+      <th scope="row">9/14</th>
+      <td>Lecture</td>
+      <td>L5</td>
+      <td>Lambda Calculus Intro (<a href="{{ '/assets/slides/lambda-calculus.pdf' | prepend: site.baseurl | prepend: site.url }}">PDF</a> and <a href="{{ '/assets/slides/lambda-calculus.key' | prepend: site.baseurl | prepend: site.url }}">.key</a>)</td>
+    </tr>
+    <tr class="table-info">
+      <th scope="row">9/14</th>
+      <td>Livecoding</td>
+      <td>L5</td>
+      <td>Lambda Calculus Livecoding (<a href="https://gist.github.com/kmicinski/48d3dc59285667119962e0546cfeb452">starter code</a>)</td>
+    </tr>
+    <tr class="table-success">
+      <th scope="row">9/16</th>
+      <td>Lecture</td>
+      <td>L6</td>
+	  <td>Alpha/eta subst., Capture-Avoiding Substitition, reduction strategies</td>
+    </tr>
+    <tr class="table-success">
+      <th scope="row">9/21</th>
+      <td>Lecture</td>
+      <td>L7</td>
+	  <td>Desugaring LetRec (Project 2) (<a href="{{ '/assets/slides/letrec.pdf' | prepend: site.baseurl | prepend: site.url }}">PDF</a> and <a href="{{ '/assets/slides/letrec.key' | prepend: site.baseurl | prepend: site.url }}">.key</a>)</td>
+    </tr>
+    <tr class="table-success">
+      <th scope="row">9/23</th>
+      <td>Lecture</td>
+      <td>L8</td>
+	  <td>Closures and Closure-Creating Interpreters (<a href="{{ '/assets/slides/closures.pdf' | prepend: site.baseurl | prepend: site.url }}">PDF</a> and <a href="{{ '/assets/slides/closures.key' | prepend: site.baseurl | prepend: site.url }}">.key</a>)</td>
+    </tr>
+    <tr class="table-success">
+      <th scope="row">9/28</th>
+      <td>Lecture</td>
+      <td>L9</td>
+	  <td><a href="https://www.youtube.com/watch?v=K-AhJgjb-8s&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG">Continuations and call/cc (video)</a>Additional (in-class) slides (<a href="{{ '/assets/slides/continuations.pdf' | prepend: site.baseurl | prepend: site.url }}">PDF</a> and <a href="{{ '/assets/slides/continuations.key' | prepend: site.baseurl | prepend: site.url }}">.key</a>) </td>
+    </tr>
+    <tr class="table-success">
+      <th scope="row">..</th>
+      <td>Lecture</td>
+      <td>L10</td>
+	  <td>Implementing call/cc and the CEK machine (<a href="{{ '/assets/slides/cek.pdf' | prepend: site.baseurl | prepend: site.url }}">PDF</a> and <a href="{{ '/assets/slides/cek.key' | prepend: site.baseurl | prepend: site.url }}">.key</a>)</td>
+    </tr>
+    <tr class="table-success">
+      <th scope="row">..</th>
+      <td>Lecture</td>
+      <td>L11</td>
+	  <td>The CEK machine</td>
+    </tr>
+    <tr class="table-success">
+      <th scope="row">..</th>
+      <td>Lecture</td>
+      <td>L12</td>
+	  <td>SSA and ANF, ANF conversion</td>
+    </tr>
+
     <!-- <tr class="table-danger"> -->
     <!--   <th scope="row">TBA</th> -->
     <!--   <td>Exam</td> -->
